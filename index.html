@@ -18,25 +18,37 @@
       <div class="form-group">
         <label for="movie">movie</label>
         <select name="movie" id="movie">
-          <option value="Gentlemen">Gentlemen</option>
-          <option value="Trolls: Age of Rock">Trolls: Age of Rock</option>
-          <option value="Lion King">Lion King</option>
-          <option value="Cars">Cars</option>
+          <option value="new">Gentlemen</option>
+          <option value="new">Trolls: Age of Rock</option>
+          <option value="old">Lion King</option>
+          <option value="old">Cars</option>
         </select>
       </div>
       <div class="form-group">
         <label for="time">time</label>
         <select name="time" id="time">
-          <option value="10am - 4pm">10am - 4pm</option>
-          <option value="5pm-midnight">5pm-midnight</option>
+          <option value="matinee">10am - 4pm</option>
+          <option value="late">5pm-midnight</option>
         </select>
       </div>
       <div class="form-group">
         <label for="age">age</label>
         <input type="text" name="age" id="age">
       </div>
+      <div class="form-group">
+        <label for="numTickets">Number of tickets?</label>
+        <select name="numTickets" id="numTickets">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
       <button type=submit>Show me the Money</button>
     </form>
+    <div id="output">
+
+    </div>
   </div>
 </body>
 </html>
