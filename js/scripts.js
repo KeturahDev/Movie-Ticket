@@ -8,7 +8,8 @@ function Ticket (movie, time, age, numTickets) {
 
 Ticket.prototype.calculatePrice = function() {
   var price = 10;
-  if(this.movie === "new") {
+  
+  if(this.movie === "Gentlemen" || this.movie === "Trolls: Age of Rock") {
     price += 2;
   }
   if(this.time === "matinee") {
